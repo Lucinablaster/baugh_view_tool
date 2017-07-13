@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'baugh_view_tool/version'
 
-Gem::specification.new do |spec|
+Gem::Specification.new do |spec|
   spec.name          = "baugh_view_tool"
   spec.version       = BaughViewTool::VERSION
   spec.authors       = ["Jordan Hudgens"]
